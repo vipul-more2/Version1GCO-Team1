@@ -284,5 +284,6 @@ class Solver6x6
         Console.WriteLine("Solver starting... Fixed seed Grid(1,1)=1");
         bool found = solver.Search();
         if (!found) Console.WriteLine("No solution found.");
+        #Mainmethod
     }
 }
